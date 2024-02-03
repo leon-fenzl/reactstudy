@@ -1,10 +1,10 @@
 import React from "react";
 import {Link} from "react-router-dom";
-import "../Styles/body.css";
+import "./Styles/body.css";
 export default function About(){
   return(
-    <section className="title">
+    <body className="bodyAbout">
       <h1>About</h1>
-    </section>
+    </body>
   );
 }
