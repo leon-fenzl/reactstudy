@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "https://leon-fenzl.github.io/reactstudy/static/css/main.1df1781d.css",
-    "main.js": "https://leon-fenzl.github.io/reactstudy/static/js/main.96f79a63.js",
+    "main.css": "https://leon-fenzl.github.io/reactstudy/static/css/main.6f9f209f.css",
+    "main.js": "https://leon-fenzl.github.io/reactstudy/static/js/main.18e55e97.js",
     "static/media/Aquatico-Regular.otf": "https://leon-fenzl.github.io/reactstudy/static/media/Aquatico-Regular.3c5900da6fbd7a2eaa65.otf",
     "index.html": "https://leon-fenzl.github.io/reactstudy/index.html",
-    "main.1df1781d.css.map": "https://leon-fenzl.github.io/reactstudy/static/css/main.1df1781d.css.map",
-    "main.96f79a63.js.map": "https://leon-fenzl.github.io/reactstudy/static/js/main.96f79a63.js.map"
+    "main.6f9f209f.css.map": "https://leon-fenzl.github.io/reactstudy/static/css/main.6f9f209f.css.map",
+    "main.18e55e97.js.map": "https://leon-fenzl.github.io/reactstudy/static/js/main.18e55e97.js.map"
   },
   "entrypoints": [
-    "static/css/main.1df1781d.css",
-    "static/js/main.96f79a63.js"
+    "static/css/main.6f9f209f.css",
+    "static/js/main.18e55e97.js"
   ]
 }
