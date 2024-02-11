@@ -1,5 +1,5 @@
 import React from "react";
-import "../Styles/customcomps.css"
+import "../Styles/footer.css"
 export default function CompFooter(){
   return(
     <div className="custom-footer">

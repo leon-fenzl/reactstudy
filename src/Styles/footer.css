@@ -1,0 +1,11 @@
+.custom-footer{
+  display: flex;
+  width: 100vw;
+  height: 8vh;
+  background-color: orange;
+  justify-content: center;
+  align-items: center;
+}
+.footer-text{
+  font-family:Arial, Helvetica, sans-serif;
+}

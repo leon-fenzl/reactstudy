@@ -1,11 +1,14 @@
 import React from "react";
 import {Link} from 'react-router-dom';
-import "../Styles/customcomps.css"
+import "../Styles/navbar.css"
 export default function CompNavbar(){
   return(
     <div className="custom-navbar">
       <div className="LOGO">
-        <Link to="/reactstudy" className="link"><h1>LOGO</h1></Link>
+        <Link to="/reactstudy" className="link"><h1>León Fenzl</h1></Link>
+        <h0>
+          <p>3D Artist - Programmer</p>
+        </h0>
       </div>
       <div className="flex-menu">
         <div className="mobileMenu">
