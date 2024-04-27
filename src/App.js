@@ -9,8 +9,8 @@ export default function App(){
       <BrowserRouter>
         <Routes>
           <Route path="/reactstudy" element={<Homepage/>}/>
-          <Route path="/works" element={<Works/>}/>
-          <Route path="/about" element={<About/>}/>
+          <Route path="/reactstudy/works" element={<Works/>}/>
+          <Route path="/reactstudy/about" element={<About/>}/>
         </Routes>
       </BrowserRouter>
     )

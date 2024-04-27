@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "https://leon-fenzl.github.io/reactstudy/static/css/main.3dcd2f52.css",
-    "main.js": "https://leon-fenzl.github.io/reactstudy/static/js/main.aaccf3bb.js",
+    "main.css": "https://leon-fenzl.github.io/reactstudy/static/css/main.7293d680.css",
+    "main.js": "https://leon-fenzl.github.io/reactstudy/static/js/main.d576bec6.js",
+    "static/media/pokéball.jpg": "https://leon-fenzl.github.io/reactstudy/static/media/pokéball.d753469eb50411d28360.jpg",
     "index.html": "https://leon-fenzl.github.io/reactstudy/index.html",
-    "main.3dcd2f52.css.map": "https://leon-fenzl.github.io/reactstudy/static/css/main.3dcd2f52.css.map",
-    "main.aaccf3bb.js.map": "https://leon-fenzl.github.io/reactstudy/static/js/main.aaccf3bb.js.map"
+    "main.7293d680.css.map": "https://leon-fenzl.github.io/reactstudy/static/css/main.7293d680.css.map",
+    "main.d576bec6.js.map": "https://leon-fenzl.github.io/reactstudy/static/js/main.d576bec6.js.map"
   },
   "entrypoints": [
-    "static/css/main.3dcd2f52.css",
-    "static/js/main.aaccf3bb.js"
+    "static/css/main.7293d680.css",
+    "static/js/main.d576bec6.js"
   ]
 }
