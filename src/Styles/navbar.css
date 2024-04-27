@@ -31,9 +31,6 @@
   text-decoration: none;
   padding-right: 20px;
 }
-#home{
-
-}
 @media screen and (max-width:1024px) {
   .logo{
     flex-direction: column;
