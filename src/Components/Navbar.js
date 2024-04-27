@@ -5,8 +5,8 @@ export default function Navbar(){
     return(
       <div className="navbar">
         <div className="logo">
-          <Link to="/reactstudy" className="link-Name" id="home"><p>León Fenzl</p></Link>
-          <h3>GAME ARTIST & PROGRAMMER</h3>
+          <Link to="/reactstudy" className="link-Name" id="home"><h3>León Fenzl</h3></Link>
+          <p>GAME ARTIST & PROGRAMMER</p>
         </div>
         <ul className="nav-menu">
           <Link to="/works" className="link-Name" id="works">Works</Link>
