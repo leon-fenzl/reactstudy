@@ -1,0 +1,13 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+:root{
+  overflow-x: hidden;
+  font-family: "Space Mono", monospace;
+  font-weight: bolder;
+  background-color: #453232;
+}
+.bg-lines{
+  background-image: url("../images/fill-lines-2.png");
+}

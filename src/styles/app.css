@@ -1,0 +1,142 @@
+
+/*COMPONENTS*/
+.navbar{
+  width: 100svw;
+  height: 5rem;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-links{
+  color: antiquewhite;
+  text-decoration: none;
+  transition: .5s;
+}
+.nav-links:hover{
+  text-decoration-line: underline;
+}
+.base-footer{
+  width: 100svw;
+  height: 5rem;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+.first-line{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+/*HOME*/
+.home{
+  width: 100svw;
+  height: 100svh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+  width: fit-content;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  color: antiquewhite;
+  h2{
+    font-size:clamp(20pt,2svw+1rem,40pt);
+  }
+  h3{
+    font-size: 20pt;
+  }
+}
+.artist{
+  font-size: 60pt;
+}
+.menu{
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.link-name{
+  text-decoration: none;
+  color: antiquewhite;
+  transition: .5s;
+}
+.link-name:hover{
+  text-decoration-line: underline;
+}
+/*WORKS*/
+.works{
+  position: relative;
+  width: 100svw;
+  height: 100svh;
+}
+.flex-holder{
+  width: 100svw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flexbox{
+  display: flex;
+  flex-flow: wrap;
+  width: 90%;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1.8rem;
+}
+.flex-item{
+  position: relative;
+  min-width: 20rem;
+  min-height: 30rem;
+  transition: .5s;
+  border: none;
+  border-radius: .5rem;
+  box-shadow: 0px 0px 5px black;
+  background-size: cover no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.item-name-bg{
+  position: absolute;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0.439);
+  width: fill;
+  height: fill;
+  border-radius: .5rem;
+  backdrop-filter: blur(5px);
+}
+.item-name{
+  display: none;
+  color: antiquewhite;
+  z-index: 99;
+}
+.flex-item:hover{
+  scale: 1.05;
+  box-shadow: 0px 5px 10px black;
+  .item-name-bg{
+    display: flex;
+  }
+  .item-name{
+    display: flex;
+  }
+}
+/* ABOUT */
+.grid{
+  display: grid;
+}

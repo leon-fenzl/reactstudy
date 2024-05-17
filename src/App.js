@@ -1,23 +1,23 @@
 import React from "react";
-import { BrowserRouter, Routes, Route} from "react-router-dom";
-import Homepage from "./Pages/Homepage";
-import Works from "./Pages/Works";
-import About from "./Pages/About";
-import "./main.css"
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Homepage from "./pages/Homepage";
+import Works from "./pages/Works";
+import About from "./pages/About";
+import "./styles/main.css"
+import "./styles/app.css"
 export default function App(){
-    return(
-      <BrowserRouter>
-        <Routes>
-          <Route path="/reactstudy" element={<Homepage/>}/>
-          <Route path="/reactstudy/works" element={<Works/>}/>
-          <Route path="/reactstudy/about" element={<About/>}/>
-        </Routes>
-      </BrowserRouter>
-    )
-}
+  return(
+    <>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/reactstudy" element={<Homepage/>}/>
+        <Route path="/reactstudy/works" element={<Works/>}/>
+        <Route path="/reactstudy/about" element={<About/>}/>
+      </Routes>
+    </BrowserRouter>
+    </>
+  );
+};
 /*
-  <Route path="/" element={<Homepage/>}/>
-  <Route path="/portfolio" element={<Portfolio/>}/>
-  <Route path="/tutorial" element={<Tutorial/>}/>
-  <Route path="/curricullum" element={<CVitae/>}/>
+<Route path="/reactstudy/works" element={<Works/>}/>
 */

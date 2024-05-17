@@ -1,22 +1,14 @@
 import React from "react";
-import Navbar from "../Components/Navbar"
-import "../Styles/about.css"
-import "../Styles/content-grid.css"
+import Navbar from "./comps/Navbar";
+import Footer from "./comps/Footer";
 export default function About(){
   return(
-    <div>
-      <Navbar/>
-        <div className="grid">
-          <div className="side1">
-          
-          </div>
-          <div className="contents">
+  <>
+    <Navbar/>
+      <br/>
+    <div className="grid">
 
-          </div>
-          <div className="side2">
-
-          </div>
-        </div>
     </div>
-  )
-}
+  </>
+  );
+};

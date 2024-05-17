@@ -1,24 +1,18 @@
 import React from "react";
-import {Link} from 'react-router-dom';
-import "../Styles/home.css"
+import { Link } from "react-router-dom";
+import "../styles/app.css"
+
 export default function Homepage(){
   return(
-    <div className="home">
-      <div className="home-bg-holder">
-        <div className="home-bg">
-
-        </div>
-      </div>
-      <div className="card">
-        <div className="card-info">
-          <h1>LEÓN FENZL</h1>
-          <h3>Game Artist & Programmer</h3>
-          <ul className="menu">
-            <Link to="/reactstudy/works" className="link-Name" id="works">Works</Link>
-            <Link to="/reactstudy/about" className="link-Name" id="about">About</Link>
-          </ul>
-        </div>
-      </div>
+  <div className="home">
+    <div className="card">
+      <h1 className="artist">LEÓN FENZL</h1>
+      <h2>Game <span>(</span>Artist & Programmer<span>)</span></h2>
+      <h2 className="menu">
+        <Link to="/reactstudy/works" className="link-name">Works</Link>
+        <Link to="/reactstudy/about" className="link-name">About</Link>
+      </h2>
     </div>
-  )
-}
+  </div>
+  );
+};
