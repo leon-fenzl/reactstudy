@@ -4,11 +4,9 @@ import Footer from "./comps/Footer";
 export default function About(){
   return(
   <>
-    <Navbar/>
-      <br/>
-    <div className="grid">
-
-    </div>
+  <div className="about" id="about">
+    <p>About</p>
+  </div>
   </>
   );
 };

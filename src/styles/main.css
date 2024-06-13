@@ -11,3 +11,8 @@
 .bg-lines{
   background-image: url("../images/fill-lines-2.png");
 }
+html{
+  scroll-behavior: smooth;
+  scroll-padding: var(--scroll-padding, 10dvh);
+  scrollbar-width: none;
+}

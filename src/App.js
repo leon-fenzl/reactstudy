@@ -1,23 +1,27 @@
 import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Navbar from "./pages/comps/Navbar";
 import Homepage from "./pages/Homepage";
+import About from "./pages/About"
 import Works from "./pages/Works";
-import About from "./pages/About";
+import Footer from "./pages/comps/Footer";
 import "./styles/main.css"
 import "./styles/app.css"
 export default function App(){
   return(
     <>
-    <BrowserRouter>
-      <Routes>
-        <Route path="/reactstudy" element={<Homepage/>}/>
-        <Route path="/reactstudy/works" element={<Works/>}/>
-        <Route path="/reactstudy/about" element={<About/>}/>
-      </Routes>
-    </BrowserRouter>
+      <Navbar/>
+      <br/>
+      <Homepage/>
+      <br/>
+      <About/>
+      <br/>
+      <Works/>
+      <br/>
+      <Works/>
+      <br/>
+      <Works/>
+      <br/>
+      <Footer/>
     </>
   );
 };
-/*
-<Route path="/reactstudy/works" element={<Works/>}/>
-*/
