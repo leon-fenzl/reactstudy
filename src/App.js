@@ -17,10 +17,6 @@ export default function App(){
       <br/>
       <Works/>
       <br/>
-      <Works/>
-      <br/>
-      <Works/>
-      <br/>
       <Footer/>
     </>
   );
